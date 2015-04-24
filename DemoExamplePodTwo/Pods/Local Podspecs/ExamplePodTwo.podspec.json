@@ -1,0 +1,28 @@
+{
+  "name": "ExamplePodTwo",
+  "version": "0.1.0",
+  "summary": "ExamplePodTwo",
+  "homepage": "https://github.com/jalopezcar/examplePodTwo.git",
+  "license": "MIT",
+  "authors": {
+    "demo": "demo@demo.com"
+  },
+  "source": {
+    "git": "https://github.com/jalopezcar/examplePodTwo.git",
+    "tag": "0.1.0"
+  },
+  "module_name": "ExamplePodTwo",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Source/**/*",
+  "dependencies": {
+    "ExamplePodOne": [
+      "~> 0.1"
+    ],
+    "SwiftyJSON": [
+      "~> 2.2"
+    ]
+  }
+}
